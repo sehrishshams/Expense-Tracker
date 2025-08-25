@@ -1,0 +1,162 @@
+    body {
+        background: #1B3C53;
+        color: #fafafa;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin: 4vh;
+        text-align: center;
+        color: #fafafa;
+        font-size: 5vh;
+    }
+
+    section {
+        margin: auto;
+        font-size: 2vh;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        background: #fff;
+        padding: 20px 0px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .amount {
+        font-weight: bold;
+        color: #1B3C53;
+    }
+
+    #balance {
+        margin: 2vh;
+        font-size: 2vh;
+        color: #3b3b98;
+    }
+
+    #income {
+        margin: 2vh;
+        font-size: 2vh;
+        color: green;
+    }
+
+    #expense {
+        margin: 2vh;
+        font-size: 2vh;
+        color: red;
+    }
+
+    .content-area {
+        width: 80%;
+        margin: 4vh auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .form {
+        color: #333;
+        background: #fff;
+        padding: 25px;
+        width: 100%;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 3vh;
+        color: #1B3C53;
+        margin-bottom: 10px;
+    }
+
+    input,
+    select {
+        box-sizing: border-box;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 1.5vh;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+        color: white;
+        background: #3b3b98;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 2vh;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #1b1b4e;
+    }
+
+    h2 {
+        color: #fafafa;
+    }
+
+    .addtransaction {
+        width: 80%;
+        margin: 4vh auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        text-align: center;
+        text-transform: uppercase;
+        background: #fff;
+        margin: 10px 0;
+        color: #1B3C53;
+        padding: 12px 15px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    li span {
+        width: 200px;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    .pos {
+        color: green;
+        font-weight: bold;
+    }
+
+    .neg {
+        color: red;
+        font-weight: bold;
+    }
+
+    li button {
+
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-size: 2vh;
+    }
+
+    li button:hover {
+        background: #c0392b;
+    }
