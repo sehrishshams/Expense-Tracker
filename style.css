@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-around;
         width: 80%;
-        background: #fff;
+        background: #b9c2c9ec;
         padding: 20px 0px;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -59,7 +59,7 @@
 
     .form {
         color: #333;
-        background: #fff;
+       background: #b9c2c9ec;
         padding: 25px;
         width: 100%;
         border-radius: 12px;
@@ -78,8 +78,10 @@
 
     input,
     select {
+        background:  #c9ced1ec;
+        color: black;
         box-sizing: border-box;
-        border: 1px solid #ddd;
+        border: 1px solid black;
         border-radius: 8px;
         width: 100%;
         margin: 10px 0;
@@ -93,7 +95,7 @@
         width: 100%;
         margin-top: 10px;
         color: white;
-        background: #3b3b98;
+        background: #1B3C53;
         padding: 10px;
         border: none;
         border-radius: 8px;
